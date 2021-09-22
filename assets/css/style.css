@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 60.25%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+.header-bgr {
+    background: url("../img/background.jpg") #00000087;
+    background-blend-mode: multiply;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    padding-top: 48px;
+    
+}
+
+.container {max-width: 1170px;margin: 0 auto;}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-left {
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a.logo-name {
+    font-size: 2.4rem;
+    font-weight: 700;
+    text-decoration: none;
+    color: #fff;
+}
+
+ul#nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;
+}
+
+a.menu-nav {
+    font-size: 1.2rem;
+    text-decoration: none;
+    font-weight: 600;
+    color: #fff;
+
+}
+
+ul#nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 52%;
+}
+
+a.header-login {
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #fff;
+
+}
+
+a.header-signup {
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+    background: #23a6f0;
+    padding: 26px 30px;
+    border-radius: 8px;
+    margin-left: 60px;
+    color: #fff;
+
+}
+
+.header-bottom {
+    display: flex;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.banner-left h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    line-height: 5rem;
+    color: #fff;
+}
+
+.banner-left {
+    width: 50%;
+}
+
+.header-group-button {
+    flex: 1;
+}
+.header-bottom-image {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-bottom-image {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-left p {
+    font-size: 1.6rem;
+    color: #f0f0f0;
+    font-weight: 400;
+    padding-top: 54px;
+    line-height: 2rem;
+}
+
+a.header-button-left {
+    background: #23a6f0;
+    text-decoration: none;
+    color: #fff;
+    padding: 28px 50px;
+    border-radius: 50px;
+    display: inline-block;
+    margin-top: 26px;
+    font-weight: 600;
+}
+
+a.header-button-right {
+    text-decoration: none;
+    color: #fff;
+    padding: 28px 30px;
+    border: 1px solid;
+    border-radius: 50px;
+    margin-left: 12px;
+    font-weight: 600;
+}
+
+img.banner-image {
+    width: 100%;
+}
+
+i.fas.fa-arrow-right {
+    padding-left: 10px;
+}
