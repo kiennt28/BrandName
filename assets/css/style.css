@@ -61,6 +61,12 @@ section.map {
     align-items: center;
 }
 
+i.fas.fa-bars {
+    font-size: 2rem;
+    color: #fff;
+    display: none;
+}
+
 
 a.book-btn {
     margin-left: 32%;
@@ -75,7 +81,7 @@ a.book-btn {
 
 footer.footer-content {
     background: #fff;
-    margin-top: 20%;
+    margin-top: 30%;
 }
 
 p {
@@ -96,7 +102,7 @@ p {
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 1170px;
     margin: 0 auto;
 }
 
@@ -606,3 +612,80 @@ p.copyright-text {
     text-align: center;
 }   
     
+.nav__overlay {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: none;
+    animation: fadeIn linear 0.3s;
+}
+
+.nav__mobile {
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding-bottom: 50px;
+    width: 320px;
+    max-width: 100%;
+    background-color: #fff;
+    transform: translateX(100%);
+    display: none;
+    opacity: 0;
+    transition: transform linear 0.2s, opacity linear 0.2s;
+}
+
+.nav__mobile-list {
+    margin-top: 40px;
+
+}
+
+.nav__mobile-link {
+    color: #333;
+    display: block;
+    padding: 8px 0;
+    font-size: 1.4rem;
+
+}
+
+nav.nav__mobile {
+    background-color: #fafafa;
+}
+
+.nav__mobile-link:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+i.fas.fa-times {
+    position: absolute;
+    top: 0.6rem;
+    right: 1rem;
+    font-size: 2rem;
+    color: #666;
+    width: 30px;
+    height: 30px;
+}
+
+.nav__input {
+    display: none;
+}
+
+.nav__input:checked ~ .nav__overlay {
+    display: block;
+}
+
+.nav__input:checked ~ .nav__mobile {
+    transform: translateX(0%);
+    opacity: 1;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

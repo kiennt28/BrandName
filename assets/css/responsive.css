@@ -1,0 +1,237 @@
+/* Mobile: width < 740px */
+@media only screen and (max-width: 46.1875em) {
+    .mobile {
+        display: block;
+    }
+}
+
+/* Tablet: width >= 740px and width < 1024px */
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+    .tablet {
+        display: block;
+    }
+
+    iframe {
+        width: 310px;
+        height: 450px;
+    }
+
+    .container{
+        max-width: 720px;
+    }
+
+    .nav__mobile {
+        display: block;
+    }
+
+    .header-right {
+        display: none;
+    }
+
+    ul#nav {
+        display: none;
+    }
+
+    i.fas.fa-bars.nav-bars-icon {
+        display: block;
+    }
+
+    .banner-left h1 {
+        font-size: 2rem;
+        line-height: 1.6;
+    }
+    
+    .banner-left p {
+        font-size: 1.1rem;
+        line-height: 1.6;
+        padding-top: 16px;
+    }
+    
+    a.header-button-left {
+        padding: 20px;
+    }
+    
+    a.header-button-right {
+        padding: 20px;
+    }
+
+    #header {
+        padding-top: 20px;
+    }
+
+    .header-top {
+        position: fixed;
+        top: 0px;
+        right: 0px;
+        left: 0px;
+        background: #6d6e70 ;
+        padding: 12px;
+    }
+
+    i.fas.fa-home {
+        padding: 10px;
+    }
+    
+    p.text-des {
+        padding: 0;
+    }
+    
+    .col {
+        padding: 24px 16px;
+    }
+
+    .business-content-bottom {
+        gap: 10px;
+    }
+
+    .clients-bottom {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .member-item.member-right {
+        display: flex;
+        align-items: flex-start;
+    }
+    
+    .member-info {
+        padding: 12px;
+    }
+    
+    h3.member-name {
+        margin: 0;
+        font-size: 1.4rem;
+    }
+    
+    p.member-role {
+        margin: 0;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    
+    .client-rate {
+        margin: 0;
+    }
+    
+    p.member-des {
+        padding-top: 23px;
+    }
+}
+
+/* PC: width >= 1024 */
+@media only screen and (min-width: 64em) and (max-width: 1439px) {
+    .container{
+        max-width: 900px;
+    }
+    
+    .pc {
+        display: block;
+    }
+
+    a.header-signup {
+        padding: 14px 20px;
+        margin-left: 20px;
+    }
+
+    a.logo-name {
+    font-size: 1.8rem;
+    }
+
+    ul#nav {
+    width: 58%;
+    }
+
+    a.menu-nav {
+        font-size: 1rem;
+    }
+    
+    a.header-login {
+        font-size: 1rem;
+    }
+    
+    a.header-signup {
+        font-size: 1rem;
+    }
+    
+    .header-bottom-image {
+        width: 40%;
+    }
+    
+    .header-bottom {
+        justify-content: space-between;
+    }
+    
+    .banner-left h1 {
+        font-size: 2.6rem;
+        line-height: 1.4;
+    }
+    
+    .banner-left p {
+        padding-top: 20px;
+        font-size: 1.4rem;
+    }
+
+    a.header-signup i {
+        display: none;
+    }
+
+    .col {
+        width: inherit;
+    }
+
+    .image img {
+        height: 100%;
+    }
+
+    h3.member-name {
+        font-size: 1.4rem;
+        margin-bottom: 5px;
+    }
+
+    p.member-role {
+        padding: 0;
+        margin: 5px;
+    }
+
+    p.member-des {
+        padding: 0;
+        font-size: 0.9rem;
+    }
+
+    .member-info {
+        padding: 20px;
+    }
+
+    iframe {
+        width: 480px;
+        height: 420px;
+    }
+
+    .block-caption {
+        margin-top: 10px;
+    }
+
+    .plan-list {
+        padding-top: 50px;
+    }
+    
+    .plan-menu {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    footer.footer-content {
+        margin-top: 64%;
+    }
+    
+    a.book-btn {
+        margin-left: 0;
+    }
+    p.plan-des {
+        padding: 30px 0;
+    }
+    
+    .plan-sub {
+        margin-bottom: 20px;
+    }
+}
