@@ -3,6 +3,234 @@
     .mobile {
         display: block;
     }
+
+    .container{
+        width: 100% !important; 
+    }
+
+    a.logo-name {
+        font-size: 2rem;
+    }
+
+    .header-bottom-image {
+        display: none;
+    }
+    
+    .header-bottom {
+        display: block;
+        margin-top: 60px;
+        margin-bottom: 50px;
+    }
+    
+    .banner-left {
+        text-align: center;
+        width: 100%;
+    }
+
+
+
+    iframe {
+        width: 0;
+        height: 0;
+    }
+
+
+
+    .nav__mobile {
+        display: block;
+    }
+
+    .header-right {
+        display: none;
+    }
+
+    ul#nav {
+        display: none;
+    }
+
+    i.fas.fa-bars.nav-bars-icon {
+        display: block;
+    }
+
+    .banner-left h1 {
+        font-size: 1.8rem;
+        line-height: 1.4;
+    }
+    
+    .banner-left p {
+        font-size: 1.1rem;
+        line-height: 1.6;
+        padding-top: 16px;
+    }
+    
+    a.header-button-left {
+        padding: 20px;
+    }
+    
+    a.header-button-right {
+        padding: 20px;
+    }
+
+    #header {
+        padding-top: 20px;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .header-top {
+        position: fixed;
+        top: 0px;
+        right: 0px;
+        left: 0px;
+        background: #6d6e70 ;
+        padding: 12px;
+    }
+
+    i.fas.fa-home {
+        padding: 10px;
+    }
+    
+    p.text-des {
+        padding: 0;
+    }
+    
+    .col {
+        padding: 24px 16px;
+    }
+
+    .business-content-bottom {
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+    }
+
+    .clients-bottom {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .member-item.member-right {
+        display: flex;
+        align-items: flex-start;
+    }
+    
+    .member-info {
+        padding: 12px;
+    }
+    
+    h3.member-name {
+        margin: 0;
+        font-size: 1.4rem;
+    }
+    
+    p.member-role {
+        margin: 0;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    
+    .client-rate {
+        margin: 0;
+    }
+    
+    p.member-des {
+        padding-top: 23px;
+    }
+
+    .block-caption {
+        margin-top: 10px;
+    }
+    
+    p.block-des {
+        padding-top: 0;
+        margin-top: 20px;
+        line-height: 1.6rem;
+    }
+    
+    .about-slg-top {
+        margin-top: 24px;
+    }
+    
+    .about-slg-bottom {
+        margin-top: 24px;
+    }
+    
+    .about-content-bottom {
+        gap: 30px;
+    }
+    
+    .slg-content {
+        padding-left: 20px;
+    }
+
+    .plan-list {
+        padding: 50px 10px;
+    }
+    
+    a.plan-button {
+        padding: 20px 96px;
+    }
+  
+    span.plan-feature-title {
+        font-size: 1rem;
+    }
+    
+    .plan-menu {
+        justify-content: space-between;
+    }
+    
+    p.plan-des {
+        padding: 30px 0;
+    }
+    
+    .plan-sub {
+        margin-bottom: 20px;
+    }
+
+    a.plan-button.plan-button-right {
+    padding: 20px 104px;
+    }
+
+    footer.footer-content {
+        margin-top: 74%;
+    }
+    
+    a.book-btn {
+        margin-left: 0;
+        padding: 18px 95px;
+        font-size: 1.2rem;
+    }
+    
+    .footer-section {
+        padding-top: 40px;
+    }
+    
+    span.footer-name {
+        font-size: 1.4rem;
+    }
+    
+    p {
+        padding-top: 20px;
+    }
+    
+    .socials {
+        padding-top: 20px;
+    }
+    
+    ul.box {
+        padding-top: 14px;
+    }
+    
+    h3.text-content {
+        font-size: 1.4rem;
+    }
+
+    .btn-book-app {
+        margin: 0;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
 }
 
 /* Tablet: width >= 740px and width < 1024px */
@@ -13,7 +241,7 @@
 
     iframe {
         width: 310px;
-        height: 450px;
+        height: 350px;
     }
 
     .container{
@@ -87,6 +315,7 @@
     .clients-bottom {
         display: flex;
         flex-direction: column;
+        gap: 20px;
     }
 
     .member-item.member-right {
@@ -115,6 +344,100 @@
     
     p.member-des {
         padding-top: 23px;
+    }
+
+    .block-caption {
+        margin-top: 10px;
+    }
+    
+    p.block-des {
+        padding-top: 0;
+        margin-top: 20px;
+        line-height: 1.6rem;
+    }
+    
+    .about-slg-top {
+        margin-top: 24px;
+    }
+    
+    .about-slg-bottom {
+        margin-top: 24px;
+    }
+    
+    .about-content-bottom {
+        gap: 30px;
+    }
+    
+    .slg-content {
+        padding-left: 20px;
+    }
+
+    .plan-list {
+        padding: 50px 10px;
+    }
+    
+    a.plan-button {
+        padding: 20px 96px;
+    }
+  
+    span.plan-feature-title {
+        font-size: 1rem;
+    }
+    
+    .plan-menu {
+        justify-content: space-between;
+    }
+    
+    p.plan-des {
+        padding: 30px 0;
+    }
+    
+    .plan-sub {
+        margin-bottom: 20px;
+    }
+
+    a.plan-button.plan-button-right {
+    padding: 20px 104px;
+    }
+
+    footer.footer-content {
+        margin-top: 74%;
+    }
+    
+    a.book-btn {
+        margin-left: 0;
+        padding: 18px 95px;
+        font-size: 1.2rem;
+    }
+    
+    .footer-section {
+        padding-top: 40px;
+    }
+    
+    span.footer-name {
+        font-size: 1.4rem;
+    }
+    
+    p {
+        padding-top: 20px;
+    }
+    
+    .socials {
+        padding-top: 20px;
+    }
+    
+    ul.box {
+        padding-top: 14px;
+    }
+    
+    h3.text-content {
+        font-size: 1.4rem;
+    }
+
+    .btn-book-app {
+        margin: 0;
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
 }
 
