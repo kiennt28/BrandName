@@ -46,7 +46,7 @@ section.map {
 .content-contact-us {
     background: rgb(255, 255, 255);
     width: 63%;
-    min-width: 420px;
+    min-width: 90%;
     padding: 35px 50px;
     left: 50%;
     top: 58%;
@@ -69,7 +69,6 @@ i.fas.fa-bars {
 
 
 a.book-btn {
-    margin-left: 32%;
     text-decoration: none;
     padding: 30px 50px;
     background: #23a6f0;
@@ -81,7 +80,7 @@ a.book-btn {
 
 footer.footer-content {
     background: #fff;
-    margin-top: 30%;
+    margin-top: 20%;
 }
 
 p {
@@ -107,6 +106,7 @@ p {
 }
 
 .header-top {
+    z-index: 1;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -527,6 +527,7 @@ span.text-heading {
 }
 
 span.text-des {
+    text-align: center;
     margin-top: 30px;
     font-size: 2rem;
     font-weight: 700;
@@ -534,7 +535,8 @@ span.text-des {
 }
 
 .btn-book-app {
-    margin: 100px;
+    text-align: center;
+    padding: 34px;
 }
 
 textarea {
@@ -678,6 +680,8 @@ i.fas.fa-times {
 }
 
 .nav__input:checked ~ .nav__mobile {
+    z-index: 1;
+    margin-top: 56px;
     transform: translateX(0%);
     opacity: 1;
 }

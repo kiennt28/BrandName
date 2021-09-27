@@ -27,14 +27,14 @@
         width: 100%;
     }
 
-
-
-    iframe {
-        width: 0;
-        height: 0;
+    h2.text-heading {
+        font-size: 2rem;
     }
 
-
+    iframe {
+        width: 374px;
+        height: 260px;
+    }
 
     .nav__mobile {
         display: block;
@@ -78,6 +78,7 @@
     }
 
     .header-top {
+        z-index: 1;
         position: fixed;
         top: 0px;
         right: 0px;
@@ -98,6 +99,12 @@
         padding: 24px 16px;
     }
 
+    .image img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+
     .business-content-bottom {
         flex-wrap: wrap;
         gap: 20px;
@@ -106,13 +113,20 @@
 
     .clients-bottom {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         gap: 20px;
+        padding-left: 16px;
+        padding-right: 16px;
     }
 
+
+    .member-left {
+        display: block;
+        
+    }
     .member-item.member-right {
-        display: flex;
-        align-items: flex-start;
+        display: block;
+        
     }
     
     .member-info {
@@ -143,6 +157,7 @@
     }
     
     p.block-des {
+        text-align: center;
         padding-top: 0;
         margin-top: 20px;
         line-height: 1.6rem;
@@ -150,14 +165,22 @@
     
     .about-slg-top {
         margin-top: 24px;
+        justify-content: center
     }
     
     .about-slg-bottom {
         margin-top: 24px;
+        justify-content: center;
     }
     
     .about-content-bottom {
         gap: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 16px;
+        padding-right: 16px;
+        margin-top: 60px;
     }
     
     .slg-content {
@@ -177,7 +200,8 @@
     }
     
     .plan-menu {
-        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 40px;
     }
     
     p.plan-des {
@@ -193,19 +217,41 @@
     }
 
     footer.footer-content {
-        margin-top: 74%;
+        margin-top: 160%;
     }
     
     a.book-btn {
         margin-left: 0;
-        padding: 18px 95px;
+        padding: 18px 14px;
         font-size: 1.2rem;
     }
     
     .footer-section {
         padding-top: 40px;
+        flex-direction: column;
+        padding-bottom: 20px;
     }
     
+    .footer-left {
+        text-align: center;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    ul.footer-right {
+        margin-top: 30px;
+        padding-left: 16px;
+        padding-right: 16px;
+        display: flex;
+        flex-direction: column;
+        gap: 26px;
+    }
+
     span.footer-name {
         font-size: 1.4rem;
     }
@@ -223,14 +269,34 @@
     }
     
     h3.text-content {
+        text-align: inherit;
         font-size: 1.4rem;
     }
 
     .btn-book-app {
+        text-align: center;
         margin: 0;
-        padding-top: 20px;
-        padding-bottom: 20px;
+        padding: 20px 0;
     }
+
+    h3.block-heading {
+        text-align: center;
+    }
+
+    .content-contact-us {
+        min-width: 90%;
+    }
+    
+    .row {
+        grid-template-columns: repeat(auto-fit, minmax(220px,1fr));
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    footer.footer-content {
+        margin-top: 180%;
+    }
+
 }
 
 /* Tablet: width >= 740px and width < 1024px */
@@ -358,6 +424,7 @@
     
     .about-slg-top {
         margin-top: 24px;
+        
     }
     
     .about-slg-bottom {
@@ -406,7 +473,7 @@
     
     a.book-btn {
         margin-left: 0;
-        padding: 18px 95px;
+        padding: 18px 90px;
         font-size: 1.2rem;
     }
     
@@ -544,7 +611,7 @@
     }
 
     footer.footer-content {
-        margin-top: 64%;
+        margin-top: 40%;
     }
     
     a.book-btn {
